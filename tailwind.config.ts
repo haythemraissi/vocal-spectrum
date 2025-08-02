@@ -52,6 +52,26 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Emotion-specific colors
+				emotion: {
+					happy: 'hsl(var(--emotion-happy))',
+					sad: 'hsl(var(--emotion-sad))',
+					angry: 'hsl(var(--emotion-angry))',
+					fear: 'hsl(var(--emotion-fear))',
+					neutral: 'hsl(var(--emotion-neutral))',
+					surprise: 'hsl(var(--emotion-surprise))',
+					disgust: 'hsl(var(--emotion-disgust))'
+				},
+				// AI/Tech themed colors
+				neural: {
+					DEFAULT: 'hsl(var(--neural))',
+					foreground: 'hsl(var(--neural-foreground))',
+					glow: 'hsl(var(--neural-glow))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
